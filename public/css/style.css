@@ -1,0 +1,47 @@
+body, html 
+{
+    height: 100%;
+}
+  
+.bg 
+{ 
+    /* The image used */
+    background-image: url("../img/bgi.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h4{
+    color:black !important;
+
+}
+
+a:link 
+{ 
+    text-decoration:none; 
+} 
+
+.contenedorPadding{
+    padding-top: 30px !important;
+}
+
+button{
+    
+}
+
+nav,button,label,.card-header{
+    font-weight: bold !important;
+}
+
+.paginador{
+    justify-content: center !important;
+    padding-top:30px !important;
+    display: flex;
+}
+
